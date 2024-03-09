@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Adventure</title>
+    <link rel="stylesheet" href="styles 1.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+
+    <!-- Homepage Section -->
+    <div class="cover-page" id="homepage">
+        <div class="background-image"></div>
+        
+        <!-- Clickable image/button 1 -->
+        <div class="clickable-image" id="button1" onclick="showFoodMap('food map.html')"></div>
+        
+        <!-- Clickable image/button 2 -->
+        <div class="clickable-image" id="button2" onclick="showFoodMap('https://l.facebook.com/l.php?u=https%3A%2F%2Fkainanexplorer.wordpress.com%2F2024%2F03%2F08%2Fsa-pahina-ng-pagtuklas-mga-explorers-sa-landas-ng-kulinarya%2F%3Ffbclid%3DIwAR1a6F22-uWy-7ANTD2BmLnGEIeksdH1FyZB4A0_l-NChdPQ-1WPtq1gOY4&h=AT2KmwxTXcObn-XOteUZ_1aKV8-9rIN15SRnZsy7ebeFTfWJDl-03JUxjEsXag8dajWUVtqIRsJ5kQ--tg18uFfEmZEkvzwZhtbsTlOAZ4rnSoVqOpE7GBieqf3TgbIJFwSO3A')"></div>
+    </div>
+
+    <!-- Food Map Section -->
+    <div id="foodMap" style="display: none;">
+        <!-- Content of your food map section goes here -->
+    </div>
+
+    <script>
+        function showFoodMap(htmlFile) {
+            // Redirect to the specified HTML file
+            window.location.href = htmlFile;
+        }
+    </script>
+
+</body>
+</html>

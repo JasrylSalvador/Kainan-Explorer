@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #foodMapContainer {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #foodMap {
+            width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .clickable-image {
+            position: absolute;
+            cursor: pointer;
+        }
+
+        #button1 {
+            top: 51%;
+            left: 83%;
+            width: 230px;
+        }
+
+        #button2 {
+            top: 20%;
+            left: 10%;
+            width: 100px;
+        }
+
+        #button3 {
+            top: 25%;
+            left: 39%;
+            width: 100px;
+        }
+
+        #button4 {
+            top: 45%;
+            left: 7%;
+            width: 100px;
+        }
+
+        #button5 {
+            top: 30%;
+            left: 88%;
+            width: 100px;
+        }
+
+        #button6 {
+            top: 25%;
+            left: 45%;
+            width: 100px;
+        }
+
+        #button7 {
+            top: 60%;
+            left: 50%;
+            width: 100px;
+        }
+
+        #button8 {
+            top: 43%;
+            left: 60%;
+            width: 100px;
+        }
+
+        #button9 {
+            top: 50%;
+            left: 68%;
+            width: 100px;
+        }
+
+        #button10 {
+            top: 28%;
+            left: 83%;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="foodMapContainer">
+        <img id="foodMap" src="map html.jpg" alt="Food Map">
+
+        <!-- Clickable image/button 1 -->
+        <div class="clickable-image" id="button1" onclick="redirectToWebsite('https://kirstennicole7.wordpress.com/?fbclid=IwAR1Ls7juO6CiMp_FGnI37eVtgGuxd9ZL_usSdDeczL_mm-JJMP_bn6facfQ')">
+            <img src="point ph.png" alt="Image 1" style="width: 100%; height: auto;">
+        </div>
+
+        <!-- Clickable image/button 2 -->
+        <div class="clickable-image" id="button2" onclick="redirectToWebsite('https://wackypogi189.wordpress.com/?fbclid=IwAR09vstY6LqmZQCFMHVyuzfsLv381e0hRpsZGZPdxdrqwPONo4_x2QTlAoo')">
+            <img src="point america.png" alt="Image 2" style="width: 100%; height: auto;">
+        </div>
+
+
+        <div class="clickable-image" id="button3" onclick="redirectToWebsite('https://angtradisyonalnapagkainsaespanya.wordpress.com/2024/03/09/26/?fbclid=IwAR3VhdoYsKqft40HSPg3YBqbYyO7438Q4CFqV1-YJxIgxVV4zUoy6exH4HQ')">
+            <img src="point spain.png" alt="Image 3" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button4" onclick="redirectToWebsite('https://kainanexplorer.wordpress.com/2024/03/08/paglalakbay-sa-panlasa-mga-sikat-na-lutuin-ng-mexico/?fbclid=IwAR3B02VqsdQtuBnQQU8-3wz9tJCE0JZ4VnVpFIx8v1f-_U7ebZlCMx8teho')">
+            <img src="point mexico.png" alt="Image 4" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button5" onclick="redirectToWebsite('https://kirstennicole2.wordpress.com/?fbclid=IwAR19EgK6vJMMZ5SKRwH0WinxAads3tmvtNlvkOl-c69ro054-f2JEjJsQUY')">
+            <img src="point japan.png" alt="Image 5" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button6" onclick="redirectToWebsite('https://kirstennicole4.wordpress.com/?fbclid=IwAR2PDVZs6Gb497N8Bg_GKBduw5CchgeB8Tmiy4s9hPv_U7hjemhyYoqS1Xs')">
+            <img src="point italy.png" alt="Image 6" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button7" onclick="redirectToWebsite('https://kainanexplorer.wordpress.com/2024/03/09/mga-tanyag-na-lutuin-mula-sa-timog-africa-isang-pagtikim-sa-kayamanan-ng-africa/?fbclid=IwAR1XxW4RAXRy28j5oyiRNHWllDbi-CKO08JSXGuKgGeE70mPTcCgllgRhJg')">
+            <img src="point south africa.png" alt="Image 7" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button8" onclick="redirectToWebsite('https://kainanexplorer.wordpress.com/2024/03/08/mga-sikat-na-lutuin-ng-uae-isang-paglalakbay-sa-panlasang-arabo/?fbclid=IwAR3ITGDMrcSPZ_jGq7q49484aoWpkfk1XYKvcrhHz2OobNaow_eDdZE_xYk')">
+            <img src="point uae.png" alt="Image 8" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button9" onclick="redirectToWebsite('https://wackypogi18.wordpress.com/?fbclid=IwAR2wQ_nbMccf-4oxhIJAzRH-Gq87hrqVW8BJy0IrL9a1srhs-cSuHCNv618')">
+            <img src="point india.png" alt="Image 9" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="clickable-image" id="button10" onclick="redirectToWebsite('https://kainanexplorer.wordpress.com/2024/03/08/ang-kahanga-hangang-pagkain-ng-korea-isang-detalyadong-sulyap-sa-mga-tanyag-na-lutuin/?fbclid=IwAR1MUx-lRVXE30nLxtfOhuxCnmfojwHx4F20OjzB8SNEXbZlXgwlXopKUTk')">
+            <img src="point korea.png" alt="Image 10" style="width: 100%; height: auto;">
+        </div>
+
+    </div>
+
+    <script>
+        function redirectToWebsite(url) {
+            window.location.href = url;
+        }
+    </script>
+
+</body>
+</html>
+
